@@ -4,3 +4,77 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+/* HEADER */
+header {
+    padding: 15px 20px 0 20px;
+    border-bottom: 1px solid rgba(151,151,151,0.5);;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* privacy */
+.privacy,
+.account {
+    display: flex;
+    align-items: center;
+}
+
+.privacy span {
+    font-size: 22px;
+    font-weight: 400;
+    color: #5f6368;
+    padding-left: 5px;
+}
+
+.privacy img {
+    width: 75px;
+    display: inline-block;
+}
+
+/* account */
+.account img {
+    width: 35px;
+    margin-left: 10px;
+}
+
+svg {
+    color: #5f6368;
+    width: 25px;
+}
+
+/* Link-bar */
+.link-bar {
+    padding-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-right: 40px;
+    color: #5f6368;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+ul li:last-child {
+    color: #3367d6;
+    border-bottom: 3px solid #3367d6;
+}
