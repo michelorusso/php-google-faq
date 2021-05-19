@@ -61,12 +61,12 @@ svg {
     padding-top: 10px;
 }
 
-ul {
+.link-bar ul {
     list-style-type: none;
     display: flex;
 }
 
-li {
+.link-bar li {
     margin-right: 40px;
     color: #5f6368;
     font-size: 15px;
@@ -74,7 +74,68 @@ li {
     line-height: 30px;
 }
 
-ul li:last-child {
+.link-bar ul li:last-child {
     color: #3367d6;
     border-bottom: 3px solid #3367d6;
 }
+
+/* MAIN */
+.container {
+    width: 75%;
+    margin: auto;
+    padding: 32px ;
+}
+
+h2 {
+    color: #3c4043;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 60px;
+}
+
+p {
+    line-height: 24px;
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #3367d6;
+}
+
+i {
+    font-size: 10px;
+}
+
+main ol{
+    line-height: 24px;
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+main h3 {
+    color: #3c4043;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0;
+    padding: 52px 0 0 0;
+}
+
+/* change spacing br */
+br {
+    content:"";
+    margin: 7em;
+    display: block;
+    font-size: 24%;
+  }
